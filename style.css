@@ -1,0 +1,150 @@
+/* トップヘッダーのスタイル */
+#top-header {
+    background-color: #f0f0f0; /* 背景色を設定 */
+    padding: 50px 20px; /* 上下の余白 */
+    text-align: center; /* コンテンツを中央寄せにする */
+    margin-bottom: 40px; /* 下にスペースを空ける */
+}
+
+/* ヘッダーコンテンツのスタイル */
+.header-content h1 {
+    font-size: 2.5em; /* タイトルのサイズ */
+    color: #333;
+    margin: 0 0 10px 0; /* 下の余白 */
+}
+
+.header-content p {
+    font-size: 1.2em; /* サブタイトルのサイズ */
+    color: #666;
+    margin: 0 0 20px 0; /* 下の余白 */
+}
+
+/* ボタンのスタイル */
+.button {
+    display: inline-block; /* ボタンをインライン要素にする */
+    background-color: #55aaff; /* ボタンの色 */
+    color: #fff;
+    padding: 12px 25px; /* ボタンの余白 */
+    text-decoration: none; /* 下線をなくす */
+    border-radius: 5px; /* 角を丸くする */
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* ホバー時のアニメーション */
+}
+
+/* ボタンのホバー時 */
+.button:hover {
+    background-color: #3388ee; /* 色を少し濃くする */
+}
+
+/* PCでのレイアウト (3列) */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* アイテム間の隙間 */
+}
+.features-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 子要素を水平方向に中央寄せ */
+    justify-content: center; /* 子要素を垂直方向に中央寄せ（必要に応じて） */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.feature-item {
+    /* アイテム全体の幅と高さを固定 */
+    width: 200px;
+    height: 300px; /* カード全体を収めるために高さを広めに設定 */
+    
+    /* カード内のコンテンツを縦に配置 */
+    display: flex;
+    flex-direction: column;
+
+    /* カードUIらしいデザイン */
+    border: 1px solid #ccc;
+    border-radius: 8px; /* 角を丸くする */
+    overflow: hidden; /* コンテンツがはみ出さないように */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 影をつけて立体感を出す */
+    box-sizing: border-box;
+}
+
+.feature-item .image {
+    /* 親要素(feature-item)と同じ幅にする */
+    width: 100%;
+    height: 150px; /* 画像の表示領域の高さを固定 */
+    
+    /* 画像をコンテナの中央に配置 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.feature-item .image img {
+    /* 画像がコンテナ全体を覆うように設定 */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.feature-item .content {
+    /* テキスト部分の余白 */
+    padding: 10px;
+    text-align: left;
+    
+    /* 高さを固定して文字を収める */
+    height: 50px; /* 16文字程度を考慮した高さ */
+    overflow: hidden; /* 高さを超えるテキストを隠す */
+}
+
+.like-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.like-button {
+    font-size: 1.5em;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #ccc; /* デフォルトの色（グレー） */
+    transition: color 0.3s;
+}
+
+/* いいねされた後のボタンの色 */
+.like-button.liked {
+    color: #ff69b4; /* ピンク */
+}
+
+.like-count {
+    font-size: 1.2em;
+    color: #666;
+    margin-left: 5px;
+}
+
+/* スマートフォンでのレイアウト (最大幅768pxの画面) */
+@media (max-width: 768px) {
+    justify-content: flex-start;
+
+    .feature-item {
+        /* スマートフォンでは2列にするため、約50%に設定 */
+        width: calc(50% - 10px);
+    }
+    
+}
+
+/* 非常に小さな画面でのレイアウト (例: 480px以下) */
+@media (max-width: 480px) {
+    .feature-item {
+        /* 1列にしたい場合は100%に設定 */
+        width: 100%;
+    }
+}
+
+.feature-item img {
+    max-width: 100%;
+    height: auto;
+}
