@@ -5,130 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>外観交流会[kinoko-wiki主催]</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap" rel="stylesheet">
 </head>
 <body>
     <script src="images.js" defer></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-
-            // Fisher-Yatesシャッフルアルゴリズム
-            function shuffle(array) {
-                for (let i = array.length - 1; i > 0; i--) {
-                    const j = Math.floor(Math.random() * (i + 1));
-                    [array[i], array[j]] = [array[j], array[i]];
-                }
-                return array;
-            }
-
-            // === アイテムを動的に生成する関数 ===
-            function generateFeatures() {
-                const container = document.getElementById('features-container');
-                const containerWidth = container.offsetWidth;
-                const itemWidth = 200; 
-                const itemsPerRow = Math.floor(containerWidth / itemWidth);
-                const numberOfItems = itemsPerRow * 2;
-
-                const shuffledData = shuffle([...imageData]);
-                container.innerHTML = '';
-
-                for (let i = 0; i < numberOfItems; i++) {
-                    const itemData = shuffledData[i % shuffledData.length];
-                    const featureItem = document.createElement('div');
-                    featureItem.className = 'feature-item';
-
-                    // 各アイテムに一意のIDをデータ属性として追加
-                    const uniqueId = itemData.itemId || itemData.text; // itemIdがなければtextを代替として使用
-                    featureItem.dataset.itemId = uniqueId;
-
-                    featureItem.innerHTML = `
-                        <div class="image">
-                            <img src="${itemData.url}" alt="${itemData.text}">
-                        </div>
-                        <div class="like-section">
-                            <button class="like-button">♡</button>
-                            <span class="like-count">0</span>
-                        </div>
-                        <div class="content">
-                            <p>${itemData.text}</p>
-                        </div>
-                    `;
-                    container.appendChild(featureItem);
-                }
-                setupLikeButtons(shuffledData);
-            }
-
-            // === いいね機能の追加 ===
-            function setupLikeButtons(shuffledData) {
-                const scriptUrl = "https://script.google.com/macros/s/AKfycbzQoPTR3L3BAU7poBw88BqUK4TSTepOJoc540HUdN7b3pU4OVmQ8rNRsbdp2JazxZGykA/exec";
-                const likeButtons = document.querySelectorAll('.like-button');
-                
-                likeButtons.forEach(button => {
-                    const item = button.closest('.feature-item');
-                    const itemId = item.dataset.itemId;
-                    const likeCountElement = button.nextElementSibling;
-                    
-                    // ローカルストレージをチェック
-                    if (localStorage.getItem('liked_' + itemId)) {
-                        button.disabled = true;
-                        button.classList.add('liked');
-                    }
-
-                    button.addEventListener('click', async () => {
-                        // すでにいいね済みなら何もしない
-                        if (button.disabled) {
-                            return;
-                        }
-
-                        const currentLikes = parseInt(likeCountElement.textContent, 10);
-                        const newLikes = currentLikes + 1;
-                        likeCountElement.textContent = newLikes;
-                        button.classList.add('liked');
-                        
-                        // ボタンを無効化
-                        button.disabled = true;
-
-                        // ローカルストレージにいいね記録を保存
-                        localStorage.setItem('liked_' + itemId, 'true');
-
-                        const itemData = shuffledData.find(data => (data.itemId || data.text) === itemId);
-                        
-                        // Google Apps Scriptにデータを送信
-                        try {
-                            await fetch(scriptUrl, {
-                                method: "POST",
-                                body: new URLSearchParams({ 
-                                    itemId: itemData.text,
-                                    uid: itemData.uid,
-                                    serverId: itemData.serverId,
-                                    imageUrl: itemData.url
-                                }),
-                                mode: "no-cors"
-                            });
-                            console.log('データを正常に送信しました。');
-                        } catch (error) {
-                            console.error('データの送信に失敗しました:', error);
-                        }
-                    });
-                });
-            }
-            
-            // === 「もっと見る」ボタンの機能 ===
-            const reloadButton = document.getElementById('reload-button');
-            if (reloadButton) {
-                reloadButton.addEventListener('click', (event) => {
-                    event.preventDefault();
-                    generateFeatures();
-                });
-            }
-
-            generateFeatures();
-            window.addEventListener('resize', generateFeatures);
-        });
-    </script>
     <header id="top-header">
         <div class="header-content">
             <p>kinoko-wikiオリジナルイベント</p>
-            <h1>外観交流会</h1>
+            <img src="images/title.png" alt="外観交流会">
             <a href="https://forms.gle/D2TyEKeKYypakvyH9" class="button">コーデ登録</a>
         </div>
     </header>
@@ -139,5 +25,10 @@
         <div class="row" id="features-container">
         </div>
     </section>
+    <footer>
+    <div class="footer-bottom">
+        <p>Copyright © 2025 <a href="#">kinoko-wiki</a>. All rights reserved.</p>
+    </div>
+</footer>
 </body>
 </html>
