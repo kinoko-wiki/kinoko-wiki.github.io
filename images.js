@@ -167,5 +167,13 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     generateFeatures();
-    window.addEventListener('resize', generateFeatures);
+    // 以下の部分を修正
+    let lastWidth = window.innerWidth;
+    window.addEventListener('resize', () => {
+        // 幅が変わった場合にのみ generateFeatures を実行
+        if (window.innerWidth !== lastWidth) {
+            generateFeatures();
+            lastWidth = window.innerWidth;
+        }
+    });
 });
