@@ -127,7 +127,9 @@ function generateFeatures() {
     const containerWidth = container.offsetWidth;
     const itemWidth = 200; 
     const itemsPerRow = Math.floor(containerWidth / itemWidth);
-    const numberOfItems = itemsPerRow * 2;
+    
+    // アイテムの数を計算。最低でも4つ（2行分）表示する
+    const numberOfItems = Math.max(itemsPerRow * 2, 4);
 
     const shuffledData = shuffle([...imageData]);
     container.innerHTML = '';
