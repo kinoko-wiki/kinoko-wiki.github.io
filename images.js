@@ -2,7 +2,7 @@
 const imageData = [
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/test01.png",
-    "text": "◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯",
+    "text": "◯◯◯◯◯◯◯◯◯◯",
     "uid": "TEST1",
     "serverId": "test"
   },
@@ -144,11 +144,11 @@ function generateFeatures() {
             <div class="image">
                 <img src="${itemData.url}" alt="${itemData.text}">
             </div>
-            <div class="like-section">
-                <button class="like-button">いいね♡</button>
-            </div>
             <div class="content">
                 <p>${itemData.text}</p>
+            </div>
+            <div class="like-section">
+                <button class="like-button">♡いいね</button>
             </div>
         `;
         container.appendChild(featureItem);
