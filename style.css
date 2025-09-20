@@ -102,6 +102,10 @@ body{
     overflow: hidden;
 }
 
+.content p {
+    word-break: break-all;
+}
+
 .like-section {
     display: flex;
     align-items: center;
