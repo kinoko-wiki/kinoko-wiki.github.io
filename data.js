@@ -49,12 +49,6 @@ export const imageData = [
     "serverId": 244
   },
   {
-    "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/887_A0F03.png",
-    "text": "ちちんぷいぷい",
-    "uid": "A0F03",
-    "serverId": 887
-  },
-  {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/1170_50203.jpg",
     "text": "詩と往く仮面幻舞会",
     "uid": 50203,
@@ -395,12 +389,6 @@ export const imageData = [
     "text": "みんなのゴキたそ",
     "uid": "D0D05",
     "serverId": 1204
-  },
-  {
-    "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/62_90503.jpeg",
-    "text": "君に夢チュウ♥️",
-    "uid": 90503,
-    "serverId": 62
   },
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/854_11C0D.jpeg",
