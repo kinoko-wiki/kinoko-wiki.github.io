@@ -25,12 +25,6 @@ export const imageData = [
     "serverId": 366
   },
   {
-    "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/1_01108.jpeg",
-    "text": "イタズラ魔法娘",
-    "uid": "01108",
-    "serverId": 1
-  },
-  {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/251_C0207.png",
     "text": "アズカバン送り",
     "uid": "C0207",
