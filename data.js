@@ -445,12 +445,6 @@ export const imageData = [
     "serverId": 70
   },
   {
-    "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/62_60709.png",
-    "text": "魔法騎士エメロード姫",
-    "uid": 60709,
-    "serverId": 62
-  },
-  {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/262_A060A.png",
     "text": "月下の輝士",
     "uid": "A060A",
