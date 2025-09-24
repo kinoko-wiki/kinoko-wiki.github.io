@@ -15,7 +15,7 @@ export const imageData = [
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/364_60409.jpeg",
     "text": "薔薇の魔法使い",
-    "uid": "60409",
+    "uid": 60409,
     "serverId": 364
   },
   {
@@ -27,7 +27,7 @@ export const imageData = [
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/1_01108.jpeg",
     "text": "イタズラ魔法娘",
-    "uid": "01108",
+    "uid": 1108,
     "serverId": 1
   },
   {
@@ -57,25 +57,25 @@ export const imageData = [
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/1170_50203.jpg",
     "text": "詩と往く仮面幻舞会",
-    "uid": "50203",
+    "uid": 50203,
     "serverId": 1170
   },
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/79_70006.jpg",
     "text": "魔導書と姫",
-    "uid": "70006",
+    "uid": 70006,
     "serverId": 79
   },
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/256_70900.jpeg",
     "text": "月夜に舞うプリンセス",
-    "uid": "70900",
+    "uid": 70900,
     "serverId": 256
   },
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/712_310.png",
     "text": "小悪魔キノコ🫧",
-    "uid": "3.10E+02",
+    "uid": 310,
     "serverId": 712
   },
   {
@@ -99,13 +99,13 @@ export const imageData = [
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/816_01405.png",
     "text": "絶雪霊の冬魔女",
-    "uid": "01405",
+    "uid": 1405,
     "serverId": 816
   },
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/332_11403.png",
     "text": "🥀薔薇斧戦姫🥀",
-    "uid": "11403",
+    "uid": 11403,
     "serverId": 332
   },
   {
@@ -165,7 +165,7 @@ export const imageData = [
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/687_50809.jpeg",
     "text": "月に乗ってお仕置よ",
-    "uid": "50809",
+    "uid": 50809,
     "serverId": 687
   },
   {
@@ -183,7 +183,7 @@ export const imageData = [
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/8_70104.jpeg",
     "text": "杖は叩くもの！",
-    "uid": "70104",
+    "uid": 70104,
     "serverId": 8
   },
   {
@@ -267,7 +267,7 @@ export const imageData = [
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/272_90401.jpeg",
     "text": "見習い魔法使い",
-    "uid": "90401",
+    "uid": 90401,
     "serverId": 272
   },
   {
@@ -303,7 +303,7 @@ export const imageData = [
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/38_80204.png",
     "text": "あなたの薔薇は美しい",
-    "uid": "80204",
+    "uid": 80204,
     "serverId": 38
   },
   {
@@ -315,7 +315,7 @@ export const imageData = [
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/1216_40107.jpeg",
     "text": "月夜の魔法使いと猫",
-    "uid": "40107",
+    "uid": 40107,
     "serverId": 1216
   },
   {
@@ -351,13 +351,13 @@ export const imageData = [
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/332_50303.jpg",
     "text": "ゆめかわ魔法戦士",
-    "uid": "50303",
+    "uid": 50303,
     "serverId": 332
   },
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/365_60208.jpeg",
     "text": "和ポップ茸",
-    "uid": "60208",
+    "uid": 60208,
     "serverId": 365
   },
   {
@@ -393,7 +393,7 @@ export const imageData = [
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/62_90503.jpeg",
     "text": "君に夢チュウ♥️",
-    "uid": "90503",
+    "uid": 90503,
     "serverId": 62
   },
   {
@@ -405,7 +405,7 @@ export const imageData = [
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/1185_40709.png",
     "text": "Ms.ミスマッチ",
-    "uid": "40709",
+    "uid": 40709,
     "serverId": 1185
   },
   {
@@ -435,7 +435,7 @@ export const imageData = [
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/70_70602.PNG",
     "text": "三日月の幻想",
-    "uid": "70602",
+    "uid": 70602,
     "serverId": 70
   },
   {
@@ -447,13 +447,13 @@ export const imageData = [
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/662_40202.jpeg",
     "text": "周回遅れお盆",
-    "uid": "40202",
+    "uid": 40202,
     "serverId": 662
   },
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/519_90008.png",
     "text": "これぞぽんこちゅ！",
-    "uid": "90008",
+    "uid": 90008,
     "serverId": 519
   },
   {
@@ -519,7 +519,7 @@ export const imageData = [
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/97_11102.jpeg",
     "text": "魔法使い",
-    "uid": "11102",
+    "uid": 11102,
     "serverId": 97
   },
   {
@@ -537,7 +537,7 @@ export const imageData = [
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/64_80501.png",
     "text": "華やかキノコ",
-    "uid": "80501",
+    "uid": 80501,
     "serverId": 64
   },
   {
@@ -573,13 +573,13 @@ export const imageData = [
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/44_90206.jpg",
     "text": "きらきら星",
-    "uid": "90206",
+    "uid": 90206,
     "serverId": 44
   },
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/1113_31405.png",
     "text": "秘密の魔法使い",
-    "uid": "31405",
+    "uid": 31405,
     "serverId": 1113
   },
   {
@@ -603,13 +603,13 @@ export const imageData = [
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/899_16397112.jpeg",
     "text": "ホグワーツの899期生",
-    "uid": "16397112",
+    "uid": 16397112,
     "serverId": 899
   },
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/361_80106.jpg",
     "text": "煌めきの魔法使い",
-    "uid": "80106",
+    "uid": 80106,
     "serverId": 361
   },
   {
@@ -627,7 +627,7 @@ export const imageData = [
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/423_60807.jpeg",
     "text": "魔法少女🎀🪄︎︎✡️",
-    "uid": "60807",
+    "uid": 60807,
     "serverId": 423
   },
   {
@@ -651,7 +651,7 @@ export const imageData = [
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/13_60006.png",
     "text": "色味が好き",
-    "uid": "60006",
+    "uid": 60006,
     "serverId": 13
   },
   {
@@ -663,13 +663,13 @@ export const imageData = [
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/731_21308.png",
     "text": "シンプル　イズ　ベスキノ",
-    "uid": "21308",
+    "uid": 21308,
     "serverId": 731
   },
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/51_11201.png",
     "text": "魔法少女🦄",
-    "uid": "11201",
+    "uid": 11201,
     "serverId": 51
   },
   {
@@ -687,7 +687,7 @@ export const imageData = [
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/245_80108.jpeg",
     "text": "森の管理者",
-    "uid": "80108",
+    "uid": 80108,
     "serverId": 245
   },
   {
@@ -717,7 +717,7 @@ export const imageData = [
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/37_01805.jpeg",
     "text": "白藍の律動",
-    "uid": "01805",
+    "uid": 1805,
     "serverId": 37
   },
   {
@@ -729,7 +729,7 @@ export const imageData = [
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/777_91407.jpg",
     "text": "月のお姫たん",
-    "uid": "91407",
+    "uid": 91407,
     "serverId": 777
   },
   {
@@ -747,7 +747,7 @@ export const imageData = [
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/91_21300.jpeg",
     "text": "月夜に現れし狼魔女",
-    "uid": "21300",
+    "uid": 21300,
     "serverId": 91
   },
   {
@@ -765,7 +765,7 @@ export const imageData = [
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/271_40304.jpeg",
     "text": "夢ぅ魔 (むぅま)",
-    "uid": "40304",
+    "uid": 40304,
     "serverId": 271
   },
   {
@@ -795,19 +795,19 @@ export const imageData = [
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/692_90704.png",
     "text": "ゆけっ！魔法戦士！",
-    "uid": "90704",
+    "uid": 90704,
     "serverId": 692
   },
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/39_70501.jpeg",
     "text": "魔法の国のアイドル",
-    "uid": "70501",
+    "uid": 70501,
     "serverId": 39
   },
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/1095_40205.png",
     "text": "森の宴",
-    "uid": "40205",
+    "uid": 40205,
     "serverId": 1095
   },
   {
@@ -831,13 +831,13 @@ export const imageData = [
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/255_11202.jpeg",
     "text": "赤！レッド！RED！",
-    "uid": "11202",
+    "uid": 11202,
     "serverId": 255
   },
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/74_70408.jpeg",
     "text": "CiRCLE",
-    "uid": "70408",
+    "uid": 70408,
     "serverId": 74
   },
   {
@@ -879,7 +879,7 @@ export const imageData = [
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/806_31103.jpeg",
     "text": "今宵は夢の世界へ",
-    "uid": "31103",
+    "uid": 31103,
     "serverId": 806
   },
   {
@@ -903,7 +903,7 @@ export const imageData = [
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/1145_41105.jpg",
     "text": "ハロウィンの姫",
-    "uid": "41105",
+    "uid": 41105,
     "serverId": 1145
   },
   {
@@ -921,7 +921,7 @@ export const imageData = [
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/83_50603.jpeg",
     "text": "ハロウィンパーティー",
-    "uid": "50603",
+    "uid": 50603,
     "serverId": 83
   },
   {
@@ -933,13 +933,13 @@ export const imageData = [
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/775_50E05.jpeg",
     "text": "これでも軍人です",
-    "uid": "50E05",
+    "uid": 5000000,
     "serverId": 775
   },
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/261_01901.png",
     "text": "産まれたてのブス",
-    "uid": "01901",
+    "uid": 1901,
     "serverId": 261
   },
   {
@@ -969,7 +969,7 @@ export const imageData = [
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/74_80803.png",
     "text": "先取りハロウィン",
-    "uid": "80803",
+    "uid": 80803,
     "serverId": 74
   },
   {
@@ -987,13 +987,13 @@ export const imageData = [
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/1101_71105.png",
     "text": "魔法使えそう",
-    "uid": "71105",
+    "uid": 71105,
     "serverId": 1101
   },
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/62_60709.png",
     "text": "煌めくエンジェル",
-    "uid": "60709",
+    "uid": 60709,
     "serverId": 62
   },
   {
@@ -1017,7 +1017,7 @@ export const imageData = [
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/62_60905.jpeg",
     "text": "魔法奇幻の夜",
-    "uid": "60905",
+    "uid": 60905,
     "serverId": 62
   },
   {
@@ -1035,7 +1035,7 @@ export const imageData = [
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/597_40205.jpeg",
     "text": "悪の魔道士",
-    "uid": "40205",
+    "uid": 40205,
     "serverId": 597
   },
   {
@@ -1073,5 +1073,41 @@ export const imageData = [
     "text": "時を遡る少年",
     "uid": 90501,
     "serverId": 364
+  },
+  {
+    "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/426_E010C.jpeg",
+    "text": "恐竜がおー🦖",
+    "uid": "E010C",
+    "serverId": 426
+  },
+  {
+    "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/20_A0008.png",
+    "text": "氷の騎士",
+    "uid": "A0008",
+    "serverId": 20
+  },
+  {
+    "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/590_B0308.jpeg",
+    "text": "魔法奇幻の夜になぞって",
+    "uid": "B0308",
+    "serverId": 590
+  },
+  {
+    "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/1_30F02.jpeg",
+    "text": "秋の夜長に",
+    "uid": "30F02",
+    "serverId": 1
+  },
+  {
+    "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/9_B080E.jpeg",
+    "text": "ハロウィン🎃",
+    "uid": "B080E",
+    "serverId": 9
+  },
+  {
+    "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/44_B0100.jpeg",
+    "text": "月兎と奏でる幻奏",
+    "uid": "B0100",
+    "serverId": 44
   }
 ];
