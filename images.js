@@ -2,7 +2,7 @@
 import { imageData } from './data.js';
 
 // Google Apps ScriptのURL
-const scriptUrl = "https://script.google.com/macros/s/AKfycbz8tSaybeBFlyNv5KAQstxHcY8a2hfVNiU3qz6JsizcgDJSFeYrG5E_ixdrz9096eE60w/exec";
+const scriptUrl = "https://script.google.com/macros/s/AKfycbw8i9wHLxiayFChqEN7xsez_fpUTYkaXdMqvjNP180u4NlmzYZvw4lWxLJxpsIi6yaDCw/exec";
 
 // === Fisher-Yatesシャッフルアルゴリズム ===
 function shuffle(array) {
@@ -40,13 +40,18 @@ function setupLikeButtons(shuffledData) {
             const itemData = shuffledData.find(data => (data.itemId || data.text) === itemId);
             
             try {
+                // ここから修正
                 await fetch(scriptUrl, {
                     method: "POST",
                     body: new URLSearchParams({ 
                         itemId: itemData.text,
                         uid: itemData.uid,
                         serverId: itemData.serverId,
-                        imageUrl: itemData.url
+                        imageUrl: itemData.url,
+                        
+                        // 画面サイズ（幅と高さ）を追加
+                        screenWidth: window.screen.width,
+                        screenHeight: window.screen.height
                     }),
                     mode: "no-cors"
                 });
