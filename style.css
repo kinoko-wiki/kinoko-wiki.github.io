@@ -51,6 +51,37 @@ body{
     background-color: #3d0026; /* 色を少し濃くする */
 }
 
+.folded-card {
+  /* 親要素の中央に配置 */
+  margin: 0 auto;
+  
+  /* デスクトップ表示時の幅 */
+  width: 50%;
+  
+  /* 共通のスタイル */
+  position: relative;
+  padding: 20px;
+  background-color: #fffaf0;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 20px;;
+}
+
+/* 折り目のスタイルは変更なし */
+.folded-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  background-color: #ffe4e1;
+  transform: rotate(45deg);
+  transform-origin: 100% 0%;
+  box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
 /* featuresセクションのコンテナ */
 .row {
     display: flex;
@@ -152,6 +183,10 @@ footer {
 
 /* === スマホでのレイアウト調整（ブレイクポイント） === */
 @media (max-width: 768px) {
+    .folded-card {
+        /* スマホ表示時の幅を80%に設定 */
+        width: 80%;
+    }
     .feature-item {
         /* 画面幅が768px以下のときに2列表示 */
         width: calc(50% - 25px);
