@@ -2,7 +2,7 @@
 import { imageData } from './data.js';
 
 // Google Apps ScriptのURL
-const scriptUrl = "https://script.google.com/macros/s/AKfycbw8i9wHLxiayFChqEN7xsez_fpUTYkaXdMqvjNP180u4NlmzYZvw4lWxLJxpsIi6yaDCw/exec";
+const scriptUrl = "https://script.google.com/macros/s/AKfycbyJld7HA7UZN_qmCeJxi_IquUTqAzrExjINL4DwhMswJoEa5z5m69WuDvVUC45bEAReTg/exec";
 
 // === Fisher-Yatesシャッフルアルゴリズム ===
 function shuffle(array) {
