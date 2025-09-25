@@ -1145,5 +1145,11 @@ export const imageData = [
     "text": "ネギ！",
     "uid": 91904,
     "serverId": 1035
+  },
+  {
+    "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/251_11C05.jpeg",
+    "text": "𐔌ᵔ꜆ ܸ•⩊•ᵔ 𐦯꜆",
+    "uid": "11C05",
+    "serverId": 251
   }
 ];
