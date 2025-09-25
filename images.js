@@ -13,10 +13,24 @@ function shuffle(array) {
     return array;
 }
 
-// === いいね機能の追加 ===
+// === セッションIDの管理 ===
+function getOrCreateSessionId() {
+    let sessionId = localStorage.getItem('sessionId');
+    if (!sessionId) {
+        // セッションIDがなければ新しく生成する
+        sessionId = crypto.randomUUID(); // より安全なUUIDを生成
+        localStorage.setItem('sessionId', sessionId);
+    }
+    return sessionId;
+}
+
+const userSessionId = getOrCreateSessionId();
+console.log('現在のセッションID:', userSessionId);
+
+// === いいね！機能の追加 ===
 function setupLikeButtons(shuffledData) {
     const likeButtons = document.querySelectorAll('.like-button');
-    
+
     likeButtons.forEach(button => {
         const item = button.closest('.feature-item');
         const itemId = item.dataset.itemId;
@@ -24,7 +38,7 @@ function setupLikeButtons(shuffledData) {
         // ローカルストレージをチェック
         if (localStorage.getItem('liked_' + itemId)) {
             button.disabled = true;
-            button.classList.add('liked'); // likedクラスを追加して色を変更
+            button.classList.add('liked');
         }
 
         button.addEventListener('click', async () => {
@@ -32,7 +46,7 @@ function setupLikeButtons(shuffledData) {
                 return;
             }
 
-            button.classList.add('liked'); // likedクラスを追加して色を変更
+            button.classList.add('liked');
             button.disabled = true;
             
             localStorage.setItem('liked_' + itemId, 'true');
@@ -40,7 +54,6 @@ function setupLikeButtons(shuffledData) {
             const itemData = shuffledData.find(data => (data.itemId || data.text) === itemId);
             
             try {
-                // ここから修正
                 await fetch(scriptUrl, {
                     method: "POST",
                     body: new URLSearchParams({ 
@@ -48,10 +61,9 @@ function setupLikeButtons(shuffledData) {
                         uid: itemData.uid,
                         serverId: itemData.serverId,
                         imageUrl: itemData.url,
-                        
-                        // 画面サイズ（幅と高さ）を追加
                         screenWidth: window.screen.width,
-                        screenHeight: window.screen.height
+                        screenHeight: window.screen.height,
+                        sessionId: userSessionId // ここで生成したセッションIDを使用
                     }),
                     mode: "no-cors"
                 });
