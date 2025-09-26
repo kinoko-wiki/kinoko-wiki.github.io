@@ -1151,5 +1151,23 @@ export const imageData = [
     "text": "𐔌ᵔ꜆ ܸ•⩊•ᵔ 𐦯꜆",
     "uid": "11C05",
     "serverId": 251
+  },
+  {
+    "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/64_80B01.jpeg",
+    "text": "🪄➰⭐️",
+    "uid": "80B01",
+    "serverId": 64
+  },
+  {
+    "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/1213_3120B.jpeg",
+    "text": "魔法使いガンダム風？",
+    "uid": "3120B",
+    "serverId": 1213
+  },
+  {
+    "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/272_A0709.png",
+    "text": "悪魔勇者",
+    "uid": "A0709",
+    "serverId": 272
   }
 ];
