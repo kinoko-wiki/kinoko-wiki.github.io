@@ -1131,7 +1131,7 @@ export const imageData = [
   {
     "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/1121_9910000000.jpeg",
     "text": "もくもく雲きのっこ！",
-    "uid": 9100000000,
+    "uid": "91E08",
     "serverId": 1121
   },
   {
@@ -1169,5 +1169,17 @@ export const imageData = [
     "text": "悪魔勇者",
     "uid": "A0709",
     "serverId": 272
+  },
+  {
+    "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/64_80B01.jpeg",
+    "text": "おにぎりとピクルスだわ",
+    "uid": "A040B",
+    "serverId": 13
+  },
+  {
+    "url": "https://kinoko-wiki.com/easyedit/kcfinder/upload/images/%E5%A4%96%E8%A6%B3%E4%BA%A4%E6%B5%81%E4%BC%9A/202509/1213_3120B.jpeg",
+    "text": "付き合って下さい！",
+    "uid": "A0402",
+    "serverId": 740
   }
 ];
